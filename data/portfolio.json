@@ -1,0 +1,770 @@
+{
+  "_readme": "All site content lives here. Edit, commit, push. Empty arrays hide their section. Fields marked [PLACEHOLDER] still need real data.",
+  "profile": {
+    "name": "Sathiya Sudan",
+    "initials": "SS",
+    "title": "AI Engineer",
+    "roles": [
+      "GenAI & Multi-Agent Systems",
+      "Computer Vision & Biometrics",
+      "Voice AI & Speech",
+      "Machine Learning & MLOps",
+      "Data Science & Analytics"
+    ],
+    "headline": "I build production AI for banking — multi-agent assistants, identity verification and compliance automation — alongside LLM agents, RAG and ML at scale.",
+    "location": "Bangalore, India",
+    "openToWork": true,
+    "availability": "Open to AI Engineer roles",
+    "photo": "",
+    "resume": "assets/Sathiya_Sudan_CV.pdf",
+    "email": "sathiyasudhan.95@gmail.com",
+    "socials": [
+      {
+        "label": "GitHub",
+        "icon": "github",
+        "url": "https://github.com/sathiya-sudan"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/sathiya-sudan-b-aab337140"
+      }
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      "I'm an AI Engineer with 5+ years across machine learning, data science and generative AI. Today I build production AI for a leading Indian private bank — multi-agent banking assistants over MCP, signature and face verification, liveness detection, V-KYC audit automation and a speech-to-speech voice agent.",
+      "My path runs from classical ML in production — recommendation engines, fraud detection and customer segmentation on Azure Databricks — through a Master's in Data Science (with Distinction) at the University of Essex, to today's agentic and RAG-based applications.",
+      "I care about AI that is grounded and reliable: tool-grounded retrieval, hallucination control, observability with LangSmith, and models that are deployed behind real APIs, not left in notebooks."
+    ],
+    "exploring": [
+      "Multi-agent orchestration",
+      "LLM evaluation",
+      "LoRA fine-tuning",
+      "MCP & tool use"
+    ]
+  },
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "+",
+      "label": "Years in data & AI"
+    },
+    {
+      "value": 7,
+      "suffix": "",
+      "label": "Banking AI systems built in my current role"
+    },
+    {
+      "value": 98,
+      "suffix": "%",
+      "label": "Face-match accuracy on 2,480 verification pairs"
+    },
+    {
+      "value": 90,
+      "suffix": "%",
+      "label": "Cut in V-KYC audit time with 100% coverage"
+    }
+  ],
+  "skills": [
+    {
+      "group": "GenAI & Agents",
+      "icon": "spark",
+      "items": [
+        "LangGraph",
+        "LangChain",
+        "Multi-agent systems",
+        "MCP",
+        "Agent registry / A2A",
+        "OpenAI GPT-4o",
+        "Llama 3.1",
+        "RAG",
+        "Prompt Engineering",
+        "LangSmith",
+        "Vector databases"
+      ]
+    },
+    {
+      "group": "Computer Vision & Biometrics",
+      "icon": "eye",
+      "items": [
+        "YOLOX",
+        "Pix2Pix (GAN)",
+        "MobileNetV2",
+        "VGGFace2 embeddings",
+        "MediaPipe",
+        "DeepPixBiS",
+        "Face verification",
+        "Liveness / anti-spoofing",
+        "OpenCV"
+      ]
+    },
+    {
+      "group": "Speech & NLP",
+      "icon": "wave",
+      "items": [
+        "Whisper v3",
+        "Speech-to-speech",
+        "HiFi-GAN vocoder",
+        "ONNX Runtime",
+        "BERT",
+        "RNN / LSTM",
+        "Intent classification"
+      ]
+    },
+    {
+      "group": "Machine Learning",
+      "icon": "flask",
+      "items": [
+        "XGBoost",
+        "Random Forest",
+        "SVM",
+        "Decision Trees",
+        "KNN",
+        "Naive Bayes",
+        "Ridge / Lasso / Elastic Net",
+        "K-Means",
+        "DBSCAN",
+        "Isolation Forest",
+        "PCA",
+        "PyTorch"
+      ]
+    },
+    {
+      "group": "MLOps, Cloud & Big Data",
+      "icon": "gear",
+      "items": [
+        "FastAPI",
+        "Streamlit",
+        "Azure ML",
+        "Azure AI Foundry",
+        "Azure Databricks",
+        "Azure Blob Storage",
+        "Apache Spark / PySpark",
+        "Hadoop",
+        "Docker",
+        "Git",
+        "Jira"
+      ]
+    },
+    {
+      "group": "Data Science & Statistics",
+      "icon": "chart",
+      "items": [
+        "Python",
+        "SQL",
+        "R",
+        "Pandas",
+        "NumPy",
+        "scikit-learn",
+        "A/B Testing",
+        "Bayesian Statistics",
+        "Causal Inference",
+        "Predictive modelling"
+      ]
+    }
+  ],
+  "projectCategories": [
+    "GenAI / LLM",
+    "ML Engineering",
+    "Data Science"
+  ],
+  "projects": [
+    {
+      "title": "Agentic Sales Insights Assistant",
+      "summary": "LangGraph agent that answers enterprise sales questions with tool-grounded, validated data.",
+      "categories": [
+        "GenAI / LLM"
+      ],
+      "featured": true,
+      "problem": "Sales leaders at Cisco Webex needed fast, trustworthy answers on bookings, pipeline and forecasts without waiting on analysts — and without an LLM inventing numbers.",
+      "approach": "Built an agentic graph in LangGraph with OpenAI and LangChain: intent classification and conditional routing, real-time tool invocation with semantic-view validation and proxy access control, YAML-driven structured prompts, and dynamic memory checkpointing on Azure Databricks, traced end-to-end with LangSmith.",
+      "result": "Delivered booking trends, pipeline forecasts and dashboard summaries grounded in tool results, keeping hallucinations in check. [PLACEHOLDER: add a metric, e.g. queries/day, answer accuracy or analyst time saved]",
+      "stack": [
+        "LangGraph",
+        "LangChain",
+        "OpenAI",
+        "Azure Databricks",
+        "LangSmith",
+        "YAML prompts"
+      ],
+      "image": "",
+      "links": {
+        "github": "",
+        "demo": ""
+      }
+    },
+    {
+      "title": "LLM Product Assistant for Live Support",
+      "summary": "RAG chatbot that gives support agents real-time product answers mid-conversation.",
+      "categories": [
+        "GenAI / LLM"
+      ],
+      "featured": true,
+      "problem": "Customer-service agents in retail were losing time digging through product databases and knowledge bases during live customer interactions.",
+      "approach": "Designed and deployed a retrieval-augmented chatbot: product docs embedded into a vector database for similarity search, real-time API integrations for live product data, and prompt engineering plus parameter tuning to reduce hallucinations.",
+      "result": "More accurate, reliable product answers during live calls. [PLACEHOLDER: add a metric, e.g. handle-time reduction or answer accuracy]",
+      "stack": [
+        "RAG",
+        "LangChain",
+        "GPT-4",
+        "Vector DB",
+        "FastAPI"
+      ],
+      "image": "",
+      "links": {
+        "github": "",
+        "demo": ""
+      }
+    },
+    {
+      "title": "Student Offer-Letter Prediction",
+      "summary": "XGBoost classifier served via FastAPI inside a university decision-support system.",
+      "categories": [
+        "ML Engineering",
+        "Data Science"
+      ],
+      "featured": true,
+      "problem": "The University of Essex needed a consistent, data-driven way to assess which applicants should receive offer letters.",
+      "approach": "Engineered features from academics, entrance scores, extracurriculars, work experience, recommendations, SOPs, financial and demographic data. Compared Logistic Regression, Decision Trees, Random Forest and XGBoost with cross-validation; tuned the winning XGBoost model with GridSearchCV and deployed it with FastAPI into a web-based decision-support tool.",
+      "result": "Helped management make better admission decisions, contributing to an 82% improvement in the student course-completion rate.",
+      "stack": [
+        "XGBoost",
+        "scikit-learn",
+        "GridSearchCV",
+        "FastAPI",
+        "Python"
+      ],
+      "image": "",
+      "links": {
+        "github": "",
+        "demo": ""
+      }
+    },
+    {
+      "title": "Real-Time E-Commerce Fraud Detection",
+      "summary": "Anomaly detection for payment fraud and refund abuse on highly imbalanced data.",
+      "categories": [
+        "ML Engineering",
+        "Data Science"
+      ],
+      "featured": false,
+      "problem": "BSH's e-commerce channel needed to catch fraudulent payments and refund abuse where genuine fraud is rare and labels are scarce.",
+      "approach": "Combined Isolation Forest for anomaly scoring with One-Class SVM to learn the boundary of normal transactions, processed at scale with real-time analytics on Azure Databricks.",
+      "result": "Strengthened fraud and risk detection on imbalanced transaction data. [PLACEHOLDER: add a metric, e.g. precision/recall or fraud loss reduced]",
+      "stack": [
+        "Isolation Forest",
+        "One-Class SVM",
+        "Azure Databricks",
+        "PySpark"
+      ],
+      "image": "",
+      "links": {
+        "github": "",
+        "demo": ""
+      }
+    },
+    {
+      "title": "Personalized Product Recommendation Engine",
+      "summary": "Collaborative filtering and similarity matching to surface relevant products.",
+      "categories": [
+        "ML Engineering",
+        "Data Science"
+      ],
+      "featured": false,
+      "problem": "Shoppers weren't discovering relevant products, limiting engagement and cross-sell for BSH's retail channel.",
+      "approach": "Built a collaborative-filtering recommender with cosine-similarity product matching (\"similar to what you viewed or bought\"), deployed and optimized on Azure Databricks with Azure Blob Storage.",
+      "result": "Scalable, personalized recommendations in production. [PLACEHOLDER: add a metric, e.g. CTR or conversion uplift]",
+      "stack": [
+        "Collaborative filtering",
+        "Cosine similarity",
+        "Azure Databricks",
+        "Azure Blob Storage"
+      ],
+      "image": "",
+      "links": {
+        "github": "",
+        "demo": ""
+      }
+    },
+    {
+      "title": "Customer Segmentation & Retention",
+      "summary": "RFM segmentation with a Streamlit app giving sales and marketing live customer insights.",
+      "categories": [
+        "Data Science",
+        "ML Engineering"
+      ],
+      "featured": false,
+      "problem": "Marketing needed to know which customers were high-value, at risk, or likely to churn in order to target campaigns.",
+      "approach": "Applied RFM (Recency, Frequency, Monetary) analysis to segment customers, served insights through a Streamlit interface, and deployed models to Azure ML endpoints with PySpark-optimized computation.",
+      "result": "Enabled targeted retention and marketing strategies. [PLACEHOLDER: add a metric, e.g. churn reduction or campaign ROI]",
+      "stack": [
+        "RFM analysis",
+        "Streamlit",
+        "Azure ML",
+        "PySpark"
+      ],
+      "image": "",
+      "links": {
+        "github": "",
+        "demo": ""
+      }
+    },
+    {
+      "title": "Document RAG Assistant",
+      "summary": "Ask questions over your own documents through a Streamlit chat interface.",
+      "categories": [
+        "GenAI / LLM"
+      ],
+      "featured": false,
+      "problem": "Finding answers buried across long PDFs and documents is slow and error-prone.",
+      "approach": "Chunk and embed documents into a vector store, retrieve the most relevant passages, and ground the LLM's answer in them — served through a Streamlit web UI. [PLACEHOLDER: add models / vector DB used]",
+      "result": "[PLACEHOLDER: e.g. answers in under 2s over 500+ pages]",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "Vector DB",
+        "LLM"
+      ],
+      "image": "",
+      "links": {
+        "github": "https://github.com/sathiya-sudan/RAG-Application",
+        "demo": ""
+      }
+    }
+  ],
+  "experience": [
+    {
+      "role": "AI Engineer [PLACEHOLDER: exact title]",
+      "company": "Company Name [PLACEHOLDER] (Client: leading Indian private bank)",
+      "location": "Bangalore, India",
+      "start": "Aug 2025 [PLACEHOLDER]",
+      "end": "Present",
+      "points": [
+        "Built a multi-agent banking assistant — host planner plus six specialist agents — reaching core banking APIs through an MCP server with JWT/OAuth security.",
+        "Automated V-KYC audits with Whisper (ONNX) and GPT-4o: 100% session coverage and 90% less audit time.",
+        "Shipped signature verification (YOLOX → Pix2Pix → MobileNetV2) at 97% precision, and face verification at 98.4% accuracy with DeepPixBiS liveness detection.",
+        "Prototyped VEDA, a speech-to-speech voice agent (Whisper v3 → Llama-3.1-8B → HiFi-GAN) that removes STT/TTS latency."
+      ],
+      "tags": [
+        "Multi-agent",
+        "MCP",
+        "Computer Vision",
+        "Voice AI",
+        "GPT-4o"
+      ]
+    },
+    {
+      "role": "Senior Software Engineer — GenAI Engineer",
+      "company": "Zensar Technologies (Client: Cisco Webex)",
+      "location": "Bangalore, India",
+      "start": "Apr 2025",
+      "end": "Jul 2025",
+      "points": [
+        "Built an LLM-powered agentic graph with LangGraph, OpenAI and LangChain delivering enterprise sales insights — booking trends, pipeline forecasts and dashboard summaries.",
+        "Engineered real-time tool invocation with semantic-view validation, proxy access control and YAML-driven structured prompts.",
+        "Implemented intent classification, conditional routing and dynamic memory checkpointing on Azure Databricks with LangSmith tracing, using tool-grounded retrieval to control hallucinations."
+      ],
+      "tags": [
+        "LangGraph",
+        "Agents",
+        "OpenAI",
+        "Azure Databricks",
+        "LangSmith"
+      ]
+    },
+    {
+      "role": "Freelance AI / ML Engineer",
+      "company": "Independent",
+      "location": "Remote",
+      "start": "Mar 2023",
+      "end": "Feb 2025",
+      "points": [
+        "Built end-to-end AI applications including LLM-powered chatbots, recommendation systems and RAG pipelines.",
+        "Kept pace with the fast-moving GenAI stack — agent frameworks, vector databases and LLM tooling — through hands-on projects."
+      ],
+      "tags": [
+        "LLMs",
+        "RAG",
+        "Chatbots",
+        "Recommenders"
+      ]
+    },
+    {
+      "role": "Data Science Intern — Student Voice",
+      "company": "University of Essex",
+      "location": "Wivenhoe, United Kingdom",
+      "start": "Jan 2022",
+      "end": "Oct 2022",
+      "points": [
+        "Built an offer-letter eligibility classifier, selecting XGBoost over Logistic Regression, Decision Trees and Random Forest via cross-validation and GridSearchCV tuning.",
+        "Deployed the model with FastAPI into a web-based decision-support system, contributing to an 82% improvement in the student course-completion rate."
+      ],
+      "tags": [
+        "XGBoost",
+        "FastAPI",
+        "Classification"
+      ]
+    },
+    {
+      "role": "Software Engineer — Data Science / ML",
+      "company": "BSH Home Appliances",
+      "location": "Bangalore, India",
+      "start": "Feb 2018",
+      "end": "Sep 2021",
+      "points": [
+        "Built a personalized recommendation engine using collaborative filtering and cosine-similarity product matching, deployed on Azure Databricks and Blob Storage.",
+        "Engineered a real-time e-commerce fraud detection system with Isolation Forest and One-Class SVM for payment anomalies and refund abuse.",
+        "Delivered RFM-based customer segmentation with a Streamlit insights app, deployed to Azure ML endpoints and optimized with PySpark."
+      ],
+      "tags": [
+        "Recommenders",
+        "Anomaly detection",
+        "Azure ML",
+        "PySpark",
+        "Streamlit"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc Data Science — Distinction",
+      "school": "University of Essex, UK",
+      "year": "2021 – 2023",
+      "detail": "Academic Excellence International Masters Scholarship"
+    },
+    {
+      "degree": "B.Tech, Information Technology",
+      "school": "Panimalar Institute of Technology",
+      "year": "2013 – 2017",
+      "detail": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certification Name [PLACEHOLDER]",
+      "issuer": "Issuer",
+      "year": "2025",
+      "url": ""
+    },
+    {
+      "name": "Certification Name [PLACEHOLDER]",
+      "issuer": "Issuer",
+      "year": "2024",
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Paper / preprint / MSc dissertation title [PLACEHOLDER]",
+      "venue": "University of Essex",
+      "year": "2023",
+      "url": ""
+    }
+  ],
+  "blog": [
+    {
+      "title": "Building an agentic sales assistant with LangGraph [PLACEHOLDER]",
+      "platform": "Medium",
+      "date": "2025",
+      "url": ""
+    },
+    {
+      "title": "Controlling hallucinations with tool-grounded retrieval [PLACEHOLDER]",
+      "platform": "LinkedIn",
+      "date": "2025",
+      "url": ""
+    }
+  ],
+  "currentRole": {
+    "company": "Company Name [PLACEHOLDER]",
+    "role": "AI Engineer [PLACEHOLDER: exact title]",
+    "client": "A leading Indian private bank",
+    "start": "Aug 2025 [PLACEHOLDER]",
+    "end": "Present",
+    "intro": "End-to-end AI systems for retail banking — from identity verification and fraud prevention to conversational banking and compliance automation.",
+    "items": [
+      {
+        "id": "ai-banking",
+        "name": "AI Banking",
+        "tagline": "Multi-agent conversational banking over MCP",
+        "domain": "Agentic AI",
+        "icon": "spark",
+        "size": "wide",
+        "metrics": [
+          {
+            "value": "6",
+            "label": "specialist agents"
+          },
+          {
+            "value": "MCP",
+            "label": "tool layer"
+          }
+        ],
+        "pipeline": [
+          "User query",
+          "Auth (JWT / OAuth)",
+          "Host agent plans",
+          "Specialist agents",
+          "MCP server",
+          "Banking APIs"
+        ],
+        "challenge": [
+          "Banking apps bury common tasks behind deep menus.",
+          "Tasks like transfers and fixed deposits must execute securely, in real time, with full user context."
+        ],
+        "approach": [
+          "Host agent handles planning and delegation; specialist agents cover balance, fund transfer, fixed deposits, statements, spending and expenses.",
+          "Agents discover each other through an agent registry service and reach core systems through an MCP server wrapping mobile-banking APIs.",
+          "Auth layer with JWT validation, OAuth and session checks before any agent acts."
+        ],
+        "impact": "Brings the bank to natural language: \"just ask\" — balance, transfers and FDs completed in seconds with personalised, context-aware responses.",
+        "stack": [
+          "Multi-agent",
+          "MCP",
+          "Agent registry",
+          "LLMs",
+          "JWT / OAuth",
+          "REST APIs"
+        ]
+      },
+      {
+        "id": "verifyx",
+        "name": "VerifyX",
+        "tagline": "Automated V-KYC video audit",
+        "domain": "GenAI · Compliance",
+        "icon": "shield",
+        "size": "",
+        "metrics": [
+          {
+            "value": "90%",
+            "label": "less audit time"
+          },
+          {
+            "value": "100%",
+            "label": "session coverage"
+          }
+        ],
+        "pipeline": [
+          "Video KYC session",
+          "Audio extraction",
+          "Whisper ASR (ONNX)",
+          "GPT-4o reasoning",
+          "Audit report JSON"
+        ],
+        "challenge": [
+          "V-KYC quality assurance was manual and sampling-based — most sessions were never reviewed.",
+          "Needed to catch compliance misses and fraud such as a third party coaching the customer."
+        ],
+        "approach": [
+          "Perception layer: Whisper ASR optimised with ONNX Runtime for fast local transcription of agent and customer streams.",
+          "Reasoning layer: GPT-4o evaluates each compliance checkpoint — disclaimer consent, name confirmation, random-code check, PAN display and more.",
+          "Reviewer UI with synced video, live transcript, pass/fail checklist and downloadable audit report."
+        ],
+        "impact": "Moved audits from manual sampling to 100% automated coverage, cutting audit time by 90% and surfacing coaching fraud.",
+        "stack": [
+          "Whisper",
+          "ONNX Runtime",
+          "GPT-4o",
+          "Python",
+          "Prompt engineering"
+        ]
+      },
+      {
+        "id": "syahi",
+        "name": "Syahi",
+        "tagline": "Signature verification",
+        "domain": "Computer Vision",
+        "icon": "pen",
+        "size": "",
+        "metrics": [
+          {
+            "value": "97%",
+            "label": "precision"
+          },
+          {
+            "value": "~1.1s",
+            "label": "end-to-end"
+          }
+        ],
+        "pipeline": [
+          "Doc + account no.",
+          "YOLOX detect",
+          "Pix2Pix clean",
+          "Fetch reference",
+          "MobileNetV2 match"
+        ],
+        "challenge": [
+          "Very high precision required — a wrong match is costly.",
+          "Signatures vary for the same person; reference images are low quality.",
+          "Noise from seals, tables, printed text and placeholders."
+        ],
+        "approach": [
+          "Separate custom models per stage: YOLOX for signature detection and extraction, Pix2Pix GAN for cleaning, MobileNetV2 for similarity matching.",
+          "Reference signature fetched via API by account number; output is matched / not matched with a confidence score."
+        ],
+        "impact": "97% precision and 80% recall in internal validation, returning a verified decision in about a second.",
+        "stack": [
+          "YOLOX",
+          "Pix2Pix",
+          "MobileNetV2",
+          "PyTorch",
+          "FastAPI"
+        ]
+      },
+      {
+        "id": "face-match",
+        "name": "Face Match",
+        "tagline": "Selfie vs. Aadhaar face verification",
+        "domain": "Computer Vision · Biometrics",
+        "icon": "face",
+        "size": "",
+        "metrics": [
+          {
+            "value": "98.4%",
+            "label": "accuracy"
+          },
+          {
+            "value": "95.2%",
+            "label": "precision"
+          }
+        ],
+        "pipeline": [
+          "Selfie + ID photo",
+          "Edge enhancement",
+          "MediaPipe detect",
+          "512-D embedding",
+          "Cosine similarity"
+        ],
+        "challenge": [
+          "Aadhaar photos are often 10+ years old and low quality versus sharp live selfies.",
+          "Small faces in large images defeat standard detectors."
+        ],
+        "approach": [
+          "VGGFace2-trained, L2-normalised 512-D embeddings robust to ageing, expression and lighting.",
+          "Unsharp-mask preprocessing plus a MediaPipe detection cascade; recursive multi-region search for low face-to-image ratios.",
+          "Strict cosine-similarity threshold (0.65) to prevent false account takeovers."
+        ],
+        "impact": "98.39% accuracy, 95.24% precision, 94.35% recall and 94.77% F1 across 2,480 verification pairs.",
+        "stack": [
+          "VGGFace2",
+          "MediaPipe",
+          "OpenCV",
+          "PyTorch"
+        ]
+      },
+      {
+        "id": "liveness",
+        "name": "Liveness Detection",
+        "tagline": "Anti-spoofing for photo & replay attacks",
+        "domain": "Computer Vision · Security",
+        "icon": "scan",
+        "size": "",
+        "metrics": [
+          {
+            "value": "0%",
+            "label": "HTER · Replay-Mobile"
+          },
+          {
+            "value": "0.42%",
+            "label": "ACER · OULU-NPU"
+          }
+        ],
+        "pipeline": [
+          "Live frames",
+          "Face crop",
+          "DeepPixBiS",
+          "Pixel-level map",
+          "Real / spoof"
+        ],
+        "challenge": [
+          "High-quality printed-photo attacks and video replays on a second screen.",
+          "Must run in real time on mobile with low latency."
+        ],
+        "approach": [
+          "DeepPixBiS pixel-wise supervision to spot print artefacts — ink dots and paper texture.",
+          "Screen-replay detection from 2D artefacts across three consecutive frames."
+        ],
+        "impact": "0% HTER on Replay-Mobile and 0.42% ACER on OULU-NPU benchmarks; 12.4% cross-dataset HTER.",
+        "stack": [
+          "DeepPixBiS",
+          "PyTorch",
+          "OpenCV"
+        ]
+      },
+      {
+        "id": "veda",
+        "name": "VEDA",
+        "tagline": "Speech-to-speech virtual banking assistant",
+        "domain": "Voice AI",
+        "icon": "wave",
+        "size": "wide",
+        "metrics": [
+          {
+            "value": "0",
+            "label": "STT / TTS hops"
+          },
+          {
+            "value": "8B",
+            "label": "Llama 3.1 core"
+          }
+        ],
+        "pipeline": [
+          "Audio in",
+          "Whisper v3 encoder",
+          "Llama-3.1-8B",
+          "Neural decoder",
+          "HiFi-GAN vocoder",
+          "Audio out"
+        ],
+        "challenge": [
+          "Classic voice agents chain STT → LLM → TTS, adding latency and sounding robotic."
+        ],
+        "approach": [
+          "Direct voice-to-voice architecture: Whisper v3 encoder feeds Llama-3.1-8B, a small neural decoder and a HiFi-GAN vocoder — no intermediate text round-trips.",
+          "Fronted by an animated 3D avatar for a human-like banking assistant."
+        ],
+        "impact": "Lower-latency, more natural voice conversations by removing the separate speech-to-text and text-to-speech stages.",
+        "stack": [
+          "Whisper v3",
+          "Llama 3.1 8B",
+          "HiFi-GAN",
+          "PyTorch"
+        ]
+      },
+      {
+        "id": "metabank",
+        "name": "MetaBank",
+        "tagline": "Gamified banking education in 3D",
+        "domain": "Immersive · FinEd",
+        "icon": "cube",
+        "size": "",
+        "metrics": [
+          {
+            "value": "3D",
+            "label": "Roblox world"
+          }
+        ],
+        "pipeline": [
+          "Explore 3D bank",
+          "KYC & documents",
+          "Lending simulations",
+          "Advisory flows"
+        ],
+        "challenge": [
+          "Financial education for the next generation is passive and disconnected from real banking."
+        ],
+        "approach": [
+          "An immersive Roblox banking world where users experience KYC compliance, secure document submission, lending simulations and advisory workflows.",
+          "Game mechanics that simulate real operational and decision-making challenges."
+        ],
+        "impact": "Builds financial literacy, confidence and responsible behaviour through play.",
+        "stack": [
+          "Roblox",
+          "Gamification"
+        ]
+      }
+    ]
+  }
+}
