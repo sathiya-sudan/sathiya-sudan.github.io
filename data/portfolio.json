@@ -7,7 +7,6 @@
     "roles": [
       "GenAI & Multi-Agent Systems",
       "Computer Vision & Biometrics",
-      "Voice AI & Speech",
       "Machine Learning & MLOps",
       "Data Science & Analytics"
     ],
@@ -33,7 +32,7 @@
   },
   "about": {
     "paragraphs": [
-      "I'm an AI Engineer with 5+ years across machine learning, data science and generative AI. Today I build production AI for a leading Indian private bank — multi-agent banking assistants over MCP, signature and face verification, liveness detection, V-KYC audit automation and a speech-to-speech voice agent.",
+      "I'm an AI Engineer with 5+ years across machine learning, data science and generative AI. Today I build production AI for a leading Indian private bank — multi-agent banking assistants over MCP, signature and face verification, liveness detection and V-KYC audit automation.",
       "My path runs from classical ML in production — recommendation engines, fraud detection and customer segmentation on Azure Databricks — through a Master's in Data Science (with Distinction) at the University of Essex, to today's agentic and RAG-based applications.",
       "I care about AI that is grounded and reliable: tool-grounded retrieval, hallucination control, observability with LangSmith, and models that are deployed behind real APIs, not left in notebooks."
     ],
@@ -51,7 +50,7 @@
       "label": "Years in data & AI"
     },
     {
-      "value": 7,
+      "value": 5,
       "suffix": "",
       "label": "Banking AI systems built in my current role"
     },
@@ -77,7 +76,6 @@
         "MCP",
         "Agent registry / A2A",
         "OpenAI GPT-4o",
-        "Llama 3.1",
         "RAG",
         "Prompt Engineering",
         "LangSmith",
@@ -103,10 +101,9 @@
       "group": "Speech & NLP",
       "icon": "wave",
       "items": [
-        "Whisper v3",
-        "Speech-to-speech",
-        "HiFi-GAN vocoder",
+        "Whisper ASR",
         "ONNX Runtime",
+        "Transcription pipelines",
         "BERT",
         "RNN / LSTM",
         "Intent classification"
@@ -344,14 +341,12 @@
       "points": [
         "Built a multi-agent banking assistant — host planner plus six specialist agents — reaching core banking APIs through an MCP server with JWT/OAuth security.",
         "Automated V-KYC audits with Whisper (ONNX) and GPT-4o: 100% session coverage and 90% less audit time.",
-        "Shipped signature verification (YOLOX → Pix2Pix → MobileNetV2) at 97% precision, and face verification at 98.4% accuracy with DeepPixBiS liveness detection.",
-        "Prototyped VEDA, a speech-to-speech voice agent (Whisper v3 → Llama-3.1-8B → HiFi-GAN) that removes STT/TTS latency."
+        "Shipped signature verification (YOLOX → Pix2Pix → MobileNetV2) at 97% precision, and face verification at 98.4% accuracy with DeepPixBiS liveness detection."
       ],
       "tags": [
         "Multi-agent",
         "MCP",
         "Computer Vision",
-        "Voice AI",
         "GPT-4o"
       ]
     },
@@ -691,78 +686,6 @@
           "DeepPixBiS",
           "PyTorch",
           "OpenCV"
-        ]
-      },
-      {
-        "id": "veda",
-        "name": "VEDA",
-        "tagline": "Speech-to-speech virtual banking assistant",
-        "domain": "Voice AI",
-        "icon": "wave",
-        "size": "wide",
-        "metrics": [
-          {
-            "value": "0",
-            "label": "STT / TTS hops"
-          },
-          {
-            "value": "8B",
-            "label": "Llama 3.1 core"
-          }
-        ],
-        "pipeline": [
-          "Audio in",
-          "Whisper v3 encoder",
-          "Llama-3.1-8B",
-          "Neural decoder",
-          "HiFi-GAN vocoder",
-          "Audio out"
-        ],
-        "challenge": [
-          "Classic voice agents chain STT → LLM → TTS, adding latency and sounding robotic."
-        ],
-        "approach": [
-          "Direct voice-to-voice architecture: Whisper v3 encoder feeds Llama-3.1-8B, a small neural decoder and a HiFi-GAN vocoder — no intermediate text round-trips.",
-          "Fronted by an animated 3D avatar for a human-like banking assistant."
-        ],
-        "impact": "Lower-latency, more natural voice conversations by removing the separate speech-to-text and text-to-speech stages.",
-        "stack": [
-          "Whisper v3",
-          "Llama 3.1 8B",
-          "HiFi-GAN",
-          "PyTorch"
-        ]
-      },
-      {
-        "id": "metabank",
-        "name": "MetaBank",
-        "tagline": "Gamified banking education in 3D",
-        "domain": "Immersive · FinEd",
-        "icon": "cube",
-        "size": "",
-        "metrics": [
-          {
-            "value": "3D",
-            "label": "Roblox world"
-          }
-        ],
-        "pipeline": [
-          "Explore 3D bank",
-          "KYC & documents",
-          "Lending simulations",
-          "Advisory flows"
-        ],
-        "challenge": [
-          "Financial education for the next generation is passive and disconnected from real banking."
-        ],
-        "approach": [
-          "An immersive Roblox banking world where users experience KYC compliance, secure document submission, lending simulations and advisory workflows.",
-          "Game mechanics that simulate real operational and decision-making challenges."
-        ],
-        "impact": "Builds financial literacy, confidence and responsible behaviour through play.",
-        "stack": [
-          "Roblox",
-          "Gamification"
         ]
       }
     ]
